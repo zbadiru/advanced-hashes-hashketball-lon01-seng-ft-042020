@@ -132,6 +132,9 @@ game_hash.each do |_player, team|
     next unless attribute == :players
     data.each do |player|
       return player[:points] if player[:player_name] == sought_player_name
+    end
+  end
+  
 end
 
 
