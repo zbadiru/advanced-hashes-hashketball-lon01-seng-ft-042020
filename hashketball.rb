@@ -131,7 +131,7 @@ game_hash.each do |_player, team|
   team.each do |attribute, data|
     next unless attribute == :players
     data.each do |player|
-      return player[:points]
+      return player[:points] if players 
 end
 
 
