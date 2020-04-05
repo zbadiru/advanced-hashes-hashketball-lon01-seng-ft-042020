@@ -180,7 +180,7 @@ def player_stats(sought_player_name)
     team.each do |attribute, _data|
       next unless attribute == :players
       game_hash[place][attribute].each do |player|
-        next unless attribute == 
+        next unless player[:player]
       
 
 
