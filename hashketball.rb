@@ -168,6 +168,9 @@ def player_numbers(team_name)
       next unless attribute == :players
       data.each do |data|
         nums << data[:number]
+      end
+    end
+  end
 
 
 
