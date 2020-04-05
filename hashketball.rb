@@ -167,7 +167,7 @@ def player_numbers(team_name)
     team.each do |attribute, data|
       next unless attribute == :players
       data.each do |data|
-        
+        nums << data
 
 
 
