@@ -126,7 +126,7 @@ def game_hash
   }
 end
 
-def num_point_scored
+def num_point_scored(sought_player_name)
 game_hash.each do |_player, team|
   team.each do |attribute, data|
     next unless attribute == :players
