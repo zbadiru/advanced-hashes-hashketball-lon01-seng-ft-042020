@@ -191,6 +191,8 @@ new_hash
 end
 
 def big_shoe_rebounds
+  biggest_shoe = 0 
+  
 
 
 
