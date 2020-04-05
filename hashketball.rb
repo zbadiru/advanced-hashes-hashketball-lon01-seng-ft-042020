@@ -163,7 +163,8 @@ end
 def player_numbers(team_name)
   nums = []
   game_hash.each do |_place, team|
-    next unless team[:team_name] == 
+    next unless team[:team_name] == team_name
+    
   
 
 
