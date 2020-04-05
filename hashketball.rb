@@ -162,7 +162,8 @@ end
 
 def player_numbers(team_name)
   nums = []
-  
+  game_hash.each do |_place, team|
+    
   
 
 
