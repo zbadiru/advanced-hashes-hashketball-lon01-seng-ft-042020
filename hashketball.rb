@@ -127,7 +127,8 @@ def game_hash
 end
 
 def num_point_scored
-game_hash.each do |_player, name|
+game_hash.each do |_player, team|
+  
 end
 
 
