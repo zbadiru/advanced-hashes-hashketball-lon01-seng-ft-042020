@@ -127,7 +127,7 @@ def game_hash
 end
 
 def num_point_scored
-game_hash.
+game_hash.each do |
 end
 
 
