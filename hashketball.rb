@@ -126,6 +126,11 @@ def game_hash
   }
 end
 
+def num_point_scored
+
+end
+
+
 
 
 
